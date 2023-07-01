@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+    <title>CVUT BAKALAR</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <meta charset="utf-8">
+</head>
+<body>
+<h1>Příjmačky ČVUT FIT Bakalář- Postup řešení 2022</h1>
+
+<h2>Úloha č. 1</h2>
+<p>
+  (3b) Binární operace \(*\) je definovaná jako \(a*b=\frac{a+b}{a-b}\). Určete hodnotu neznámé \(x\) tak, aby \((2*x)*3=-2\)
+</p>
+<ul style="list-style-type:none">
+  <li>(a) Rovnice má jedno záporné řešení.</li>
+  <li>(b) <span style="color:green">Žádná z ostatních možností není správná.</span></li>
+  <li>(c) Rovnice má kladné řešení větší než 2.</li>
+  <li>(d) Rovnice má dvě řešení a jejich součin je 4.</li>
+  <li>(e) Rovnice nemá řešení.</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+  \[x \neq 2 \land x \neq 1\]
+  \[\frac{\frac{2+x}{2-x}+3}{\frac{2+x}{2-x}-3}=-2\]
+  \[\frac{2+x}{2-x}+3=-2*(\frac{2+x}{2-x}-3)\]
+  \[\frac{2+x}{2-x}+3=\frac{-4-2x}{2-x}+6\]
+  \[2+x+3*(2-x)=-4-2x+6*(2-x)\]
+  \[2+x+6-3x=-4-2x+12-6x\]
+  \[8-2x=8-8x\]
+  \[0=-6x\]
+  \[x=0\]
+</p>
+<h2>Úloha č. 2</h2>
+<p>
+  (3b) Mezi čísly a, b, c, d, e platí následující vztahy. Číslo a není větší než b, a < c, d není větší než b a e\(\lt\) a. Který z následujících výroků nemůže býr pravidvý?
+</p>
+<ul style="list-style-type:none">
+  <li>(a) \(a\lt d\)</li>
+  <li>(b) \(d\gt c\)</li>
+  <li>(c) Platí právě jeden z ostatních vztahů.</li>
+  <li>(d) \(e\lt d\)</li>
+  <li>(e) <span style="color:green">\(e\gt c\)</span></li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+  \[a\le b\]
+  \[a\lt c\]
+  \[d\leq b\]
+  \[e\lt a\]
+</p>
+<img src="../img/osa_priklad_2_2022.jpg" alt="osa" width="30%">
+<h2>Úloha č. 3</h2>
+<p>
+  (3b) Mějme dvě čísla zapsaná v pětkové soustavě: \(4112_5\) a \(2443_5\). Vyjádřete jejich rozdíl také v pětkové soustavě.
+</p>
+<ul style="list-style-type:none">
+  <li>(a) <span style="color:green">\(4112_5 - 2443_5 = 1114_5\)</span></li>
+  <li>(b) \(4112_5 - 2443_5 = 2144_5\)</li>
+  <li>(c) \(4112_5 - 2443_5 = 114_5\)</li>
+  <li>(d) Žádná z ostatních možností není správná.</li>
+  <li>(e) \(4112_5 - 2443_5 = 1224_5\)</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+  \[
+  \begin{array}{ccccc}
+
+  \ & 4 & 1 & 1 & 2_5 \\
+
+  \ - & 2 & 4 & 4 & 3_5\\
+
+  \hline\\
+
+   & 1 & 1 & 1 & 4_5\\
+  \end{array}
+  \]
+</p>
+<h2>Úloha č. 4</h2>
+<p>
+  (7b) Původní cena knihy byla 350 Kč. Pak byla zdražena o 20 %. Jelikož nešla na odbyt, byla zlevněna o 15 % (z ceny po zdražení) a to je její současná cena. Rozhodněte, které tvrzení je pravdivé.
+</p>
+<ul style="list-style-type:none">
+  <li>(a) Současná cena knihy je o pět procent vyšší než původní cena.</li>
+  <li>(b) Současná cena knihy je stejná jako původní cena.</li>
+  <li>(c) Současná cena knihy je nižší než původní cena.</li>
+  <li>(d) Žádná z ostatních možností není správná.</li>
+  <li>(e) <span style="color:green">Současná cena knihy je o dvě procenta vyšší než původní cena.</span></li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+  \[350* 1,2 = 420\]
+  \[350* 0,85 = 357\]
+  \[357/350 = 1,02\]
+</p>
+<h2>Úloha č. 5</h2>
+<p>
+  (7b) Které z následujících tvrzení o definičním oboru funkce \(f(x) = \sqrt{\frac{1}{x+2}}+\sqrt{\frac{1}{x^2-x-\frac{3}{4}}}\)
+</p>
+<ul style="list-style-type:none">
+  <li>(a) Definičním oborem jsou všechna kladná čísla.</li>
+  <li>(b) Definiční obor je \((-\frac{1}{2},\frac{3}{2}) \cup \langle2,+\infty)\).</li>
+  <li>(c) Definiční obor je \(\langle -\frac{1}{2},\frac{3}{2})\).</li>
+  <li>(d) <span style="color:green">Žádná z ostatních možností není správná.</span></li>
+  <li>(e) Definiční obor je \((-\infty,-\frac{1}{2}) \cup (\frac{3}{2},2\rangle \).</li>
+</ul>
+<h3>Postup řešení: chyba je třeba opravit</h3>
+<p>
+  I.
+  \[x+2 \neq 0\]
+  \[x \neq -2\]
+  \[x \gt -2\]
+</p>
+<p>
+  II.
+  \[x^2-x-\frac{3}{4}=0\]
+  \[4x^2-4x-3=0\]
+  \[D=16-4*4*(-3)=16+48=64\]
+  \[x_1=\frac{4+8}{8}=\frac{12}{8}=1,5\]
+  \[x_2=\frac{4-8}{8}=\frac{-4}{8}=-0,5\]
+</p>
+<img src="../img/graf_priklad_5_2022.jpg" alt="graf" width="30%">
+<p>
+  Průnik je:
+  \[x \in \langle -2,-\frac{1}{2} \rangle \cup \langle \frac{3}{2} , \infty)\]
+</p>
+<h2>Úloha č. 6</h2>
+<p>
+  (7b) Ve třídě je 30 žáků. Jedna třetina z nich si k maturitě zvolila matematiku a fyziku zároveň. Alespoň jeden z těchto předmětů si zvolilo 24 žáků. Maturovat z angličtiny se rozhodlo 22 žáků. Všechny tři předměty si vybralo 8 žáků a jen matematiku 3 žáci. Matematiku a zároveň angličtinu si vybralo 15 žáků. Dva žáci si nevybrali ani jeden z těchto tří předmětů. Rozhodněte, které tvrzení je pravdivé.
+</p>
+<ul style="list-style-type:none">
+  <li>(a) Neexistuje žák, který si zvolil jen fyziku.</li>
+  <li>(b) Popsaná situace nemůže nastat.</li>
+  <li>(c) <span style="color:green">Angličtina nebo fyziku si vybralo více žáků než matematiku nebo fyziku.</span></li>
+  <li>(d) Jen angličtinu si vybralo více žáků než matematiku a zároveň fyziku.</li>
+  <li>(e) Žádná z ostatních možností není správná.</li>
+</ul>
+<h3>Postup řešení:</h3>
+<img src="../img/vennuv_diagran_6_2022.png" alt="vennuv diagram" width="30%">
+<h2>Úloha č. 7</h2>
+<p>
+  (7b) Rozhodněte, které tvrzení o řešeních rovnice \(\frac{\log_{3}(6x-2)}{\log_{3}(x-3)}=2\) je pravdivé.
+</p>
+<ul style="list-style-type:none">
+  <li>(a) <span style="color:green">Rovnice má jedno řešení.</span></li>
+  <li>(b) Rovnice nemá řešení.</li>
+  <li>(c) Žádná z ostatních možností není správná.</li>
+  <li>(d) Součet všech řešení je 12.</li>
+  <li>(e) Rovnice má dvě řešení a jejich součin je 10.</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+  \[6x-2>0 \Rightarrow x>\frac{1}{3}\]
+  \[x-3>0 \Rightarrow x>3\]
+</p>
+<p>
+  \[\log_{3}(6x-2)=\log_{3}(x-3)^2\]
+  \[6x-2=(x-3)^2\]
+  \[6x-2=x^2-6x+9\]
+  \[0=x^2-12x+11\]
+  \[D=144-4*11=100\]
+  \[x_1=\frac{12+10}{2}=\frac{22}{2}=11 ✔\]
+  \[x_1=\frac{12-10}{2}=\frac{2}{2}=1 ×\]
+</p>
+<h2>Úloha č. 8</h2>
+<p>
+  (7b) Nekonečná spirála se skládá z půlkružnic. Poloměr první půlkružnice je 6 cm a poloměr každé další půlkružnice je o 25 % menší než poloměr půlkružnice předcházející. Vypočítejte délku \(l\) spirály.
+</p>
+<ul style="list-style-type:none">
+  <li>(a)\(l = 8𝝅\) cm </li>
+  <li>(b) <span style="color:green">\(l = 24𝝅\) cm</span></li>
+  <li>(c) \(l = + \infty \) cm</li>
+  <li>(d) Žádná z ostatních možností není správná.</li>
+  <li>(e) \(l = 12𝝅\) cm </li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+  \[a_1=6\]
+  \[q=0,75\]
+  \[a_2=6*0,75=4,5\]
+</p>
+<p>
+  Vzorec na součet nekonečné geometrické řady:
+  Řada je konvergentní. \[ \vert q\vert < 1\]
+  \[s_n=\frac{a_1}{1-q}\]
+</p>
+<p>
+  \[s_n=\frac{6}{1-0,75}\]
+  \[s_n=\frac{6}{0,25}\]
+  \[s_n=24𝝅 cm\]
+</p>
+<h2>Úloha č. 9</h2>
+<p>
+  (7b) Jestliže \(y=2x^2+2x-12\), pak \(y \in  \langle 0, 12 \rangle \) právě pro
+</p>
+<ul style="list-style-type:none">
+  <li>(a) \(x \in \langle 2,3\rangle\)</li>
+  <li>(b) \(x \in \langle3,+ \infty ) \)</li>
+  <li>(c) <span style="color:green">Žádná z ostatních možností není správná.</span></li>
+  <li>(d) \(x \in (- \infty, -3 \rangle \cup \langle 2,+ \infty)\)</li>
+  <li>(e) \(x \in  \langle-4,3 \rangle\)</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+  \[D = 4-4*(-12)*2 = 4 + 96 = 100\]
+  \[x_1 = \frac{-2-10}{4}=\frac{-12}{4}=-3\]
+  \[x_2 = \frac{-2+10}{4}=\frac{8}{4}=2\]
+</p>
+<p>
+  Rozklad kvadratického trojčlenu na součin:
+  \[y=2*(x-2)*(x+3)\]
+</p>
+<img src="../img/graf_priklad_9_2022.png" alt="graf" width="30%">
+<h2>Úloha č. 10</h2>
+<p>
+  (7b) Pro řešení nerovnice \((\frac{1}{3})^{x^2} \leq 3^{-x-6}\)
+</p>
+<ul style="list-style-type:none">
+  <li>(a) Žádná z ostatních možností není správná.</li>
+  <li>(b) Neexistují záporná řešení</li>
+  <li>(c) Všechna řešení leží v intervalu \( \langle -2, \infty ).\)</li>
+  <li>(d) Řešení jsou všechna reálná čísla.</li>
+  <li>(e) <span style="color:green">Všechna řešení leží v intervalu \( (- \infty, -2 \rangle \cup \langle 3,+ \infty)\)</span></li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+  \[3^{-x^2} \leq 3^{-x-6}\]
+  \[-x^2 \leq -x-6\]
+  \[0 \leq x^2-x-6\]
+  \[D=1-4*(-6)=25\]
+  \[x_1=\frac{1+5}{2}=3\]
+  \[x_2=\frac{1-5}{2}=-2\]
+</p>
+<img src="../img/graf_priklad_10_2022.png" alt="graf" width="30%">
+<h2>Úloha č. 11</h2>
+<p>
+  (7b) Jsou dány dvě množiny \(A= \{ x|x^2+4x-2>0 \}\) a \(B = \{ x| \vert x+1 \vert \leq 3\}\). Rozdílem množin A mínus B je
+</p>
+<ul style="list-style-type:none">
+  <li>(a) \((-2+\sqrt{6},2 \rangle\)</li>
+  <li>(b) \( \langle -4,-2+\sqrt{6} \rangle\)</li>
+  <li>(c) Žádná z ostatních možností není správná.</li>
+  <li>(d) <span style="color:green">\((- \infty,-2- \sqrt{6}) \cup(2, \infty)\)</span></li>
+  <li>(e) \((-2 - \sqrt{6},4 \rangle\)</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+  Množina A:
+  \[x^2+4x-2=0\]
+  \[D=16-4*(-2)=24\]
+  \[x_1=\frac{-4+2\sqrt{6}}{2}=-2+\sqrt{6}\]
+  \[x_2=\frac{-4-2\sqrt{6}}{2}=-2-\sqrt{6}\]
+</p>
+<img src="../img/graf_priklad_11_2022.png" alt="graf" width="30%">
+<p>Množina B:</p>
+<img src="../img/osa_priklad_11_2022.png" alt="osa" width="30%">
+<p>Rozdíl možin \(A-B\)</p>
+<img src="../img/rozdil_priklad_11_2022.png" alt="rozdíl" width="30%">
+<h2>Úloha č. 12</h2>
+<p>
+  (7b) Kolika různými způsoby lze ze 7 mužů a 3 žen vybrat trojici tak, aby v ní byla nejvýše jedna žena?
+</p>
+<ul style="list-style-type:none">
+  <li>(a) 63</li>
+  <li>(b) Žádná z ostatních možností není správná.</li>
+  <li>(c) 35</li>
+  <li>(d) <span style="color:green">98</span></li>
+  <li>(e) 85</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+  Nejvýše jedna žena \( \Rightarrow\) 1 a žádná
+</p>
+<p>
+  1: \[\binom{7}{2}=21\]
+  \[21 * 3 = 63\]
+</p>
+<p>
+  0: \[\binom{7}{3}=35\]
+</p>
+<p>
+  \[63 + 35 = 98\]
+</p>
+<h2>Úloha č. 13</h2>
+<p>
+  (7b) Určete hodnotu parametru p tak, aby přímka q neměla s kružnicí k žádný společný bod. \( q: px+y-1=0\) a \(k:x^2-4x+y^2-6y-3=0\)
+</p>
+<ul style="list-style-type:none">
+  <li>(a) Takových p je nekonečně mnoho.</li>
+  <li>(b) \(p \in (- \infty , 3) \cup \langle 7, \infty)\)</li>
+  <li>(c) Žádná z ostatních možností není správná.</li>
+  <li>(d)  \(p = 7\)</li>
+  <li>(e) <span style="color:green">Takové p neexistuje.</span></li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+  \[y=-px+1\]
+  \[x^2-4x+y^2-6y-3=0\]
+  \[\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\]
+  \[x^2-4x+(-px+1)^2-6(-px+1)-3=0\]
+  \[x^2-4x+p^2x^2-2px+1+6px-6-3=0\]
+  \[x^2+p^2x^2-4x+4px-8=0\]
+  \[x^2(p^2+1)+x(4p-4)-8=0\]
+</p>
+<p>
+  Pokud \(D<0\) tak kružnice s přímkou nebudou mít nikdy žádný společný bod.
+  \[(4p-4)^2-4(1+p^2)*(-8)=16p^2-32p+16+32(1+p^2)=16p^2-32p+16+32+32p^2=48p^2-32p+48\]
+  \[48p^2-32p+48<0\]
+  \[3^2-2p+3<0\]
+  \[D=4-4*3*3=4-36=-32\]
+</p>
+<p>
+  Neexistuje parametr.
+</p>
+<h2>Úloha č. 14</h2>
+<p>
+  (7b) Nalezněte řešení rovnice \(2x^5-x^3+2x^2=1\) a rozhodněte, které tvrzení je pravdivé.
+</p>
+<ul style="list-style-type:none">
+  <li>(a) Součin všechn reálných řešení rovnice je \( \frac{1}{4}\).</li>
+  <li>(b) Rovnice nemá řešení.</li>
+  <li>(c) <span style="color:green">Rovnice má tři různa řešení.</span></li>
+  <li>(d) Rovnice má právě dvě různá reálná řešení.</li>
+  <li>(e) Žádná z ostatních možností není správná.</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+  \[2x^5-x^3+2x^2=1\]
+  \[2x^5-x^3+2x^2-1=0\]
+  \[x^3*(2x^2-1)+2x^3-1=0\]
+  \[(x^3+1)*(2x^2-1)=0\]
+</p>
+<p>
+  1.
+  \[x^3+1=0\]
+  \[x^3=-1\]
+  \[x=-1\]
+</p>
+<p>
+  2.
+  \[2x^2=1\]
+  \[x^2=\frac{1}{2}\]
+  \[x=\pm\frac{\sqrt{1}}{\sqrt{2}}\]
+  \[x=\pm\frac{1}{\sqrt{2}}\]
+  \[x=\pm\frac{\sqrt{2}}{2}\]
+</p>
+<h2>Úloha č. 15</h2>
+<p>
+  (7b) Určete všechny hodnoty reálného parametru p, pro které má následující rovnice právě 2 různé  reálné kořeny. \(px^2-p(p+3)+2p(p+1)=0\)
+</p>
+<ul style="list-style-type:none">
+  <li>(a) \(p \in \mathbb{R} \setminus \{ 1 \}\)</li>
+  <li>(b) <span style="color:green">Žádná z ostatních možností není správná.</span></li>
+  <li>(c) \(p \in \mathbb{R}\)</li>
+  <li>(d) \(p \in (0,1)\cup (1, \infty)\)</li>
+  <li>(e) Takové \(p\) neexistuje.</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+2 kořeny budeme mít pokud
+  \[D=(-p^2-3p)^2-4p(2p^2+2p)=p^4+6p^3+9p^2-8p^3-8p^2=p^4-2p^3+p^2=(p^2-p)^2\]
+</p>
+<p>
+  \[x_1=\frac{p^2+3p+(p^2-p)}{2p}=\frac{2p^2+2p}{2p}=\frac{2p(2p+1)}{2p}=2p+1\]
+  \[x_2=\frac{p^2+3p-(p^2-p)}{2p}=\frac{p^2+3p}{2p}=\frac{p^2+3p-p^2+p}{2p}=\frac{4p}{2p}=2\]
+</p>
+<h2>Úloha č. 16</h2>
+<p>
+  (7b) Jaká je pravděpodobnost, že při dvou hodech stejnou šestibokou kostkou bude součet obou hodů 9?
+</p>
+<ul style="list-style-type:none">
+  <li>(a) \(\frac{5}{36}\)</li>
+  <li>(b) <span style="color:green">\(\frac{1}{9}\)</span></li>
+  <li>(c) \(\frac{1}{18}\)</li>
+  <li>(d) Žádná z ostatních možností není správná.</li>
+  <li>(e) \(\frac{1}{12}\)</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+  Můžeme si vypsat všechny možnosti hodu kostky a hledat kdy se součet 2 hodů rovná 9.
+</p>
+<p>
+  Druhá možnost je jít od 1-6 a snažit se hledat, aby nám čísla dávaly dohromady 9:
+  \[1+6 = 7\]
+  \[2+6=8\]
+</p>
+<p>
+  \[3+6=9\] a při změně pořádí mámé druhou
+</p>
+<p>
+  \[4+5=9\] a při změně pořádí mámé druhou možnost
+</p>
+<p>
+  a ty další čísla pro (5,6) už jsou ty čísla v opačném pořadí
+</p>
+<p>Máme ted 4 možnosti</p>
+<p>Máme 2 kostky o 6 stranách. 6 * 6 = 36</p>
+<p>
+  \[\frac{4}{36}=\frac{1}{9}\]
+</p>
+</body>
+</html>
