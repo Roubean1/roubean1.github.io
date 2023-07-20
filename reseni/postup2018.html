@@ -1,10 +1,238 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs-cz">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>CVUT BAKALAR</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <meta charset="utf-8">
 </head>
 <body>
+<h1>Příjmačky ČVUT FIT Bakalář- Postup řešení 2018</h1>
+<h2>Úloha č. 1</h2>
+<p>
+    (3b) Binární operace \(*\) je definovaná jako \(a*b=\frac{a+b}{a-b}\). Určete hodnotu neznámé \(x\) tak, aby \((2*x)*3=-2\)
+</p>
+<ul style="list-style-type:none">
+    <li>(a) Rovnice má kladné řešení větší než 2.</li>
+    <li>(b) Rovnice nemá řešení.</li>
+    <li>(c) <span style="color:green">Žádná z ostatních možností není správná.</span></li>
+    <li>(d) Rovnice má jedno záporné řešení.</li>
+    <li>(e) Rovnice má dvě řešení a jejich součin je 4.</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+    \[x \neq 2 \land x \neq 1\]
+    \[\frac{\frac{2+x}{2-x}+3}{\frac{2+x}{2-x}-3}=-2\]
+    \[\frac{2+x}{2-x}+3=-2*(\frac{2+x}{2-x}-3)\]
+    \[\frac{2+x}{2-x}+3=\frac{-4-2x}{2-x}+6\]
+    \[2+x+3*(2-x)=-4-2x+6*(2-x)\]
+    \[2+x+6-3x=-4-2x+12-6x\]
+    \[8-2x=8-8x\]
+    \[0=-6x\]
+    \[x=0\]
+</p>
+<h2>Úloha č. 2</h2>
+<p>
+    (3b) Při koupi dvou párů bot dostaneme slevu 30% na druhý pár. Chceme koupit boty za 1800 a 1500 korun. Jaká je nejmenší cena za kterou můžeme oba páry získat?
+</p>
+<ul style="list-style-type:none">
+    <li>(a) Žádná z ostatních možností není správná.</li>
+    <li>(b) \(2800\)</li>
+    <li>(c) <span style="color:green">\(2760\)</span></li>
+    <li>(d) \(2850\)</li>
+    <li>(e) \(2700\)</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+    Dražší boty získají větší slevu v korunách.
+    \[1800*0,7=1260\]
+    \[1500+1260=2760\]
+</p>
+<h2>Úloha č. 3</h2>
+<p>
+    (3b) Pokud bude o víkendu hezky, budeme večer grilovat. Pokud o víkendu nebude hezky, půjdeme do muzea. Rozhodněte, které tvrzení je pravdivé.
+</p>
+<ul style="list-style-type:none">
+    <li>(a) Pokud budeme večer grilovat, pak jsem nebyli v muzeu.</li>
+    <li>(b) Jedině za hezkého počasí půjdeme do muzea a zároveň budeme večer grilovat.</li>
+    <li>(c) Žádná z ostatních možností není správná.</li>
+    <li>(d) <span style="color:green">Pokud jsem večer negrilovat, tak jsem šli do muzea.</span></li>
+    <li>(e) Pokud jsem šli do muzea, tak večer nebudeme grilovat.</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+    Pokud bude o víkendu hezky, budeme večer grilovat. \(H \Rightarrow G\) 1 1 je pravda
+</p>
+<p>
+    Pokud o víkendu nebude hezky, půjdeme do muzea. \( \lnot H \Rightarrow M\) 0 1 je pravda
+</p>
+<p>
+    A) \(G \Rightarrow \lnot M\) 1 0 není pravda
+</p>
+<p>
+    B) \( \Leftrightarrow M \land G\) 1 1 1 je to sice pravda, ale podle zadání to nedává smysl
+</p>
+<p>
+    C) ----
+</p>
+<p>
+    D) \( \lnot G \Rightarrow M\) 0 1 je pravda
+</p>
+<p>
+    E) \( M \Rightarrow \lnot G\) 1 0 není pravda
+</p>
+<h2>Úloha č. 4</h2>
+<p>
+    (7b) Mějme tři čísla zapsaná v sedmičkové soustavě: \(1456_7\), \(1526_7\) a \(4345_7\). Vyjádřete jejich součet také v sedmičkové soustavě.
+</p>
+<ul style="list-style-type:none">
+    <li>(a) <span style="color:green">\(1456_7 + 1526_7 + 4345_7 = 10663_7\)</span></li>
+    <li>(b) \(1456_7 + 1526_7 + 4345_7 = 11063_7\)</li>
+    <li>(c) \(1456_7 + 1526_7 + 4345_7 = 7327_7\)</li>
+    <li>(d) Žádná z ostatních možností není správná.</li>
+    <li>(e) \(1456_7 + 1526_7 + 4345_7 = 10653_7\)</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+    \[
+    \begin{array}{ccccc}
 
+    \ & 1 & 4 & 5 & 6_7 \\
+
+    \ & 1 & 5 & 2 & 6_7\\
+
+    \ & 4 & 3 & 4 & 5_7\\
+
+    \hline\\
+
+    1 & 0 & 6 & 6 & 3_7\\
+    \end{array}
+    \]
+</p>
+<h2>Úloha č. 5</h2>
+<p>
+    (7b) Pro řešení rovnice \( \frac{ \log_{3}(9x)^2}{\log_{3}(81x^2)}=\frac{3}{2}\)
+</p>
+<ul style="list-style-type:none">
+    <li>(a) <span style="color:green">Žádná z ostatních možností není správná.</span></li>
+    <li>(b) Rovnice nemá řešení.</li>
+    <li>(c) Rovnice má řešení menší než \(\frac{1}{9}\).</li>
+    <li>(d) Součin všech různých řešení je \(\frac{1}{3}\).</li>
+    <li>(e) Řešení je nekonečně mnoho.</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+    \[ \frac{ \log_{3}(9x)^2}{\log_{3}(81x^2)}=\frac{3}{2} \]
+    \[ \frac{ (\log_{3}(9) + \log_{3}(x))^2}{\log_{3}((9x)^2)}=\frac{3}{2} \]
+    \[ \frac{ (\log_{3}(3^2) + \log_{3}(x))^2}{\log_{3}((9x)^2)}=\frac{3}{2} \]
+    \[ \frac{ (\log_{3}(3^2) + \log_{3}(x))^2}{2\log_{3}(|9x|)}=\frac{3}{2} \] je definované v rozsahu
+    \[ \frac{ (\log_{3}(3^2) + \log_{3}(x))^2}{2\log_{3}(9x)}=\frac{3}{2} \]
+    \[ \frac{ 4 + 4\log_{3}(x) + \log_{3}(x)^2}{2\log_{3}(9x)}=\frac{3}{2} \]
+    \[ \frac{ 4 + 4\log_{3}(x) + \log_{3}(x)^2}{2( \log_{3}(9) + \log_{3}(x) )}=\frac{3}{2} \]
+    \[ \frac{ (\log_{3}(3^2) + \log_{3}(x))^2}{2( \log_{3}(3^2) + \log_{3}(x) )}=\frac{3}{2} \]
+    \[ \frac{ \log_{3}(3^2) + \log_{3}(x)}{2}=\frac{3}{2} \]
+    \[ \frac{ 2 + \log_{3}(x)}{2}=\frac{3}{2} \]
+    \[ 2 + \log_{3}(x)=3 \]
+    \[ \log_{3}(x)=1 \]
+    \[ x=3^1 \]
+    \[ x=1 \]
+</p>
+<h2>Úloha č. 6</h2>
+<p>
+    (7b) Plavecký bazén si vede měsíční statistiky. Jedna čtvrtina návštěvníků chodí do bazénu alespoň dvakrát týdně a jedna pětina z nich dokonce denně. Jedna pětina všech návštěvníků chodí jedenkrát týdně. Ostatní návštěvníci chodí několikrát do měsíce, ale nepravidelně. Každý desátý návštěvník se po první návštěvě víckrát nevrátí. Rozhodněte, které tvrzení je pravdivé.
+</p>
+<ul style="list-style-type:none">
+    <li>(a) Právě dvakrát týdně chodí do bazénu 5% návštěvníků.</li>
+    <li>(b) <span style="color:green">Do bazénu chodí pravidelně 45% návštěvníků.</span></li>
+    <li>(c) Žádná z ostatních možností není správná.</li>
+    <li>(d) Do bazénu chodí pravidelně 65% návštěvníků.</li>
+    <li>(e) Nepravidelně chodí do bazénu 65% návštěvníků.</li>
+</ul>
+<h3>Postup řešení:</h3>
+<h4>Pravidelně:</h4>
+<p>\(\frac{1}{4}x\) 2x týdně  z nich  \(\frac{1}{4}\) (\(\frac{1}{20}x\)) 1x denně</p>
+<p>\(\frac{1}{5}x\) 1x týdně</p>
+<p>Pravidelně \(\frac{1}{4}+\frac{1}{5}=\frac{5+4}{20}=\frac{9}{20}=45\)%</p>
+<h4>Nepravidelně:</h4>
+<p>\(\frac{1}{10}x\) 1</p>
+<p>\(100-45-10=45=\frac{9}{20}x\) ostatní několikrát do měsíce</p>
+<p>Nepravidelně \(55\)%</p>
+<h2>Úloha č. 7</h2>
+<p>
+    (7b) Jsou dány dvě množiny \(A =  \{ 2 \sin(x-π)|x \in \langle 0,π\rangle\} \) a \(B = \{ x||x-1|\geq1\}\). Průnikem množin A a B je
+</p>
+<ul style="list-style-type:none">
+    <li>(a) Prázdná množina.</li>
+    <li>(b) Žádná z ostatních možností není správná.</li>
+    <li>(c) <span style="color:green">\(\langle -2,0 \rangle\)</span></li>
+    <li>(d) \(\{0,2\}\)</li>
+    <li>(e) \(\langle -2,0 \rangle \cup \{2\}\)</li>
+</ul>
+<h3>Postup řešení:</h3>
+<h4>A:</h4>
+<p>
+    \(2 \sin \) obor hodnot je \( \langle -2,2 \rangle\) a graf je posunutý + π na ose x
+</p>
+<img src="../img/graf_priklad_7_2018.png" alt="graf" width="30%">
+<h4>B:</h4>
+<img src="../img/graf2_priklad_7_2018.png" alt="graf" width="30%">
+<h4>Průnik množin \( A \cap B = \langle -2, 2 \rangle \)</h4>
+<h2>Úloha č. 8</h2>
+<p>
+    (7b) Nalezněte řešení rovnice a rozhodněte, které tvrzení je pravdivé. \(|2x-1|-|2-3x|=5\)
+</p>
+<ul style="list-style-type:none">
+    <li>(a) Rovnice má právě 2 různá řešení.</li>
+    <li>(b) Rovnice má právě 3 různá řešení.</li>
+    <li>(c) Žádná z ostatních možností není správná.</li>
+    <li>(d) <span style="color:green">Rovnice nemá řešení.</span></li>
+    <li>(e) Rovnice má právě 1 řešení.</li>
+</ul>
+<h3>Postup řešení:</h3>
+<p>
+    Nulové body: \( x_1=\frac{1}{2}\), \(x_2=\frac{2}{3}\)
+
+    \[
+    \begin{array}{|c|c|c|c|}
+    \hline\\
+    \ & (-∞,\frac{1}{2}) & ⟨\frac{1}{2},\frac{2}{3} & (\frac{2}{3},∞) \\
+
+    \hline\\
+
+    \ |2x-1|& \boldsymbol{-} & + & \boldsymbol{+} \\
+
+    \hline
+
+    \ |2-3x|& \boldsymbol{+} & + & \boldsymbol{-} \\
+
+    \hline
+    \end{array}
+    \]
+</p>
+<p>
+    1. Řešení pro \(x\in(-∞,\frac{1}{2})\)
+    \[-(2x-1)+[-(2-3x)]=5\]
+    \[-2x+1-2+3x=5\]
+    \[x-1=5\]
+    \[x=6\]
+    Neleží v intervalu
+</p>
+<p>
+    2. Řešení pro \(x\in \langle \frac{1}{2},\frac{2}{3}\rangle\)
+    \[-(2x-1)+[-(2-3x)]=5\]
+    \[-2x+1-2+3x=5\]
+    \[5x-3=5\]
+    \[5x=8\]
+    \[x=\frac{8}{5}\]
+    Neleží v intervalu
+</p>
+<p>
+    3. Řešení pro \(x\in (\frac{2}{3},∞)\)
+    \[-(2x-1)+[-(2-3x)]=5\]
+    \[-x+1=5\]
+    \[-x=4\]
+    \[x=-4\]
+    Neleží v intervalu
+</p>
 </body>
 </html>
