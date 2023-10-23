@@ -22,3 +22,19 @@ toggleBtn.addEventListener("click", function() {
         isSidebarOpen = false;
     }
 });
+
+    var xhr = new XMLHttpRequest();
+    var aktualniCesta = window.location.search;
+    if(aktualniCesta.length == 0){
+        aktualniCesta = 'uvod.txt';
+    }
+    else {
+        aktualniCesta = aktualniCesta.slice(1);
+    }
+    xhr.open("GET", aktualniCesta, true);
+    xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+    document.getElementById("obsah").innerHTML = xhr.responseText;
+}
+};
+    xhr.send();

@@ -72,6 +72,8 @@ ul{
 
 #obsah{
     width: 750px; /* Omezí šířku na polovinu */
+    min-width: 0;
+    overflow-wrap: break-word;
     margin: 0 auto;
 }
 
