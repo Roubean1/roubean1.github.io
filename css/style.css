@@ -69,9 +69,13 @@ ul{
     font-family: Calibri;
     font-size: 18px;
 }
+span{
+    overflow-wrap: break-word;
+}
 
 #obsah{
-    width: 750px; /* Omezí šířku na polovinu */
+
+    width: 50%; /* Omezí šířku na polovinu */
     min-width: 0;
     overflow-wrap: break-word;
     margin: 0 auto;
@@ -81,5 +85,6 @@ img{
     max-width:100%;
     height:auto;"
 }
+
 
 
