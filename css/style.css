@@ -20,7 +20,9 @@ html, body {
 #content {
     transition: margin-left 0.3s; /* Přidejte přechod pro margin-left */
     padding-left: 20px;
+    padding-right: 20px;
     padding-top: 15px;
+
 }
 
 .hidden {
