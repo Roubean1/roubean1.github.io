@@ -1,17 +1,17 @@
 <h1 style="text-align: left">Hlavní stránka</h1>
             <p style="text-align: justify;">
-                Zdravím všechny co právě objevili tuto stránku. Vzhledek k mému prvnímu neúspěšnému pokusu dostat se na FIT
+                Zdravím všechny co právě objevili tuto stránku. Vzhledem k mému prvnímu neúspěšnému pokusu dostat se na FIT,
                 jsem vytvořil tuto stránku, aby mohli všichni co se snaží dostat se pomocí přijímaček na FIT podívat na postup jednotlivých úloh,
                 které jsou volně k dispozici na internetu. Najdete zde řešení vzorových testů a vypočítané příklady z přípravného kurzu. Věřím v to, že
-                Vám stránka bude přínosem. Pokud byste našli jakékoliv chyby napište mi na discord, nebo byste třeba chtěli pomoct s vývojem
-                tohodle puknovýho webu. Přeji všem hodně štěstí ať úspěšně zvládnete příjimačky.
+                vám stránka bude přínosem. Pokud byste našli jakékoliv chyby napište mi na discord, nebo byste třeba chtěli pomoct s vývojem
+                tohoto puknovýho webu. Přeji všem hodně štěstí ať úspěšně zvládnete přijímačky.
             </p>
             <p>
-                V přípravném kurzu se nachází pouze fotky z mého pošktaného sešitu, nemám bohužel čas už přepisovat úlohy, tak kdyby byl nějaký odvážlivec co by se toho chtěl ujat, jen do toho.
+                V přípravném kurzu se nachází pouze fotky z mého poškrtaného sešitu, nemám bohužel čas už přepisovat úlohy, tak kdyby byl nějaký odvážlivec co by se toho chtěl ujmout, jen do toho napište mi.
             </p>
             <p>
                 Můj discord: <strong>.kulicka</strong>
             </p>
             <p style="text-align: left">
-                <strong>Upozonění: Na stránce se nachází hromada chyb!</strong>
+                <strong>Upozornění: Na stránce se nachází hromada chyb!</strong>
             </p>
