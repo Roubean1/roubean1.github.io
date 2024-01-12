@@ -13,5 +13,5 @@
                 Můj discord: <strong>.kulicka</strong>
             </p>
             <p style="text-align: left">
-                <strong>Upozornění: Na stránce se nachází hromada chyb!</strong>
+                <strong>Upozornění:</strong> Na stránce se mohou nacházet chyby, v případě nálezu mě kontaktujte na discordu, nebo to nahlašte na githubu!
             </p>
