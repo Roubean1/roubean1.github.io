@@ -68,6 +68,14 @@ p, h1{
     font-family: sans-serif;
 }
 
+.archiv{
+    color: rgba(68, 68, 63, 0.76);
+}
+
+ul.b {
+    list-style-type: square;
+}
+
 ul{
     font-family: Calibri;
     font-size: 18px;
