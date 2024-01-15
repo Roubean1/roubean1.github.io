@@ -16,7 +16,7 @@
             <strong>Upozornění:</strong> Na stránce se mohou nacházet chyby, v případě nálezu mě kontaktujte na discordu, nebo to nahlašte na githubu!
             </p>
 
-                        <h3>Archív vzorových testů:</h3>
+                        <h3>Archiv vzorových testů:</h3>
                         <ul class="b">
                             <li>
                                 <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2024.pdf" download>
