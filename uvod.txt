@@ -12,80 +12,79 @@
             <p>
                 Můj discord: <strong>.kulicka</strong>
             </p>
-            <p style="text-align: left">
-                <strong>Upozornění: Na stránce se nachází hromada chyb!</strong>
+            <p>
+            <strong>Upozornění:</strong> Na stránce se mohou nacházet chyby, v případě nálezu mě kontaktujte na discordu, nebo to nahlašte na githubu!
             </p>
 
-            <h3>Archiv vzorových testů:</h3>
-
-            <ul class="b">
+                        <h3>Archív vzorových testů:</h3>
+                        <ul class="b">
                             <li>
-                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2024.pdf" download="">
+                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2024.pdf" download>
                                 Vzorová přijímací zkouška z matematiky pro rok 2024
                                 </a>
                             </li>
                             <li>
-                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2022.pdf" download="">
+                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2022.pdf" download>
                                 Vzorová přijímací zkouška z matematiky pro rok 2023
                                 </a>
                             </li>
                             <li>
-                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2021.pdf" download="">
+                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2021.pdf" download>
                                 Vzorová přijímací zkouška z matematiky pro rok 2022
                                 </a>
                             </li>
                             <li>
-                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2020.pdf" download="">
+                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2020.pdf" download>
                                 Vzorová přijímací zkouška z matematiky pro rok 2021
                                 </a>
                             </li>
                             <li>
-                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2019.pdf" download="">
+                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2019.pdf" download>
                                 Vzorová přijímací zkouška z matematiky pro rok 2020
                                 </a>
                             </li>
                             <li>
-                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2018.pdf" download="">
+                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2018.pdf" download>
                                 Vzorová přijímací zkouška z matematiky pro rok 2019
                                 </a>
                             </li>
                             <li>
-                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2017.pdf" download="">
+                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2017.pdf" download>
                                 Vzorová přijímací zkouška z matematiky pro rok 2018
                                 </a>
                             </li>
                             <li>
-                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2016.pdf" download="">
+                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2016.pdf" download>
                                 Vzorová přijímací zkouška z matematiky pro rok 2017
                                 </a>
                             </li>
                             <li>
-                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2015.pdf" download="">
+                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2015.pdf" download>
                                 Vzorová přijímací zkouška z matematiky pro rok 2016
                                 </a>
                             </li>
                             <li>
-                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2014-4.pdf" download="">
+                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2014-4.pdf" download>
                                 Vzorová přijímací zkouška z matematiky pro rok 2015-4
                                 </a>
                             </li>
                             <li>
-                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2014-3.pdf" download="">
+                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2014-3.pdf" download>
                                 Vzorová přijímací zkouška z matematiky pro rok 2015-3
                                 </a>
-                            </li><li>
-                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2014-2.pdf" download="">
+                            <li>
+                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2014-2.pdf" download>
                                 Vzorová přijímací zkouška z matematiky pro rok 2015-2
                                 </a>
                             </li>
                             <li>
-                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2014-1.pdf" download="">
+                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2014-1.pdf" download>
                                 Vzorová přijímací zkouška z matematiky pro rok 2015-1
                                 </a>
                             </li>
                             <li>
-                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2013-0.pdf" download="">
+                                <a class="archiv" href="archiv_prijimacky/bc-vzorova-prijimaci-zkouska-2013-0.pdf" download>
                                 Vzorová přijímací zkouška z matematiky pro rok 2014
                                 </a>
                             </li>
-            </ul>
+                        </ul>
