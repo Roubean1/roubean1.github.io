@@ -16,7 +16,7 @@
                 <strong>Upozornění: Na stránce se nachází hromada chyb!</strong>
             </p>
 
-            <h3>Archív vzorových testů:</h3>
+            <h3>Archiv vzorových testů:</h3>
 
             <ul class="b">
                             <li>
